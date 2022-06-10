@@ -6,7 +6,7 @@
 
 #### После настройки можете спокойно оставлять компьютер(ы) и ждать сообщений в Telegram.
 
-В данном проекте используется [oblitum/interception](https://github.com/oblitum/Interception) и [node-interception](https://github.com/Rami-Sabbagh/node-interception). Interception необходимо установить отдельно.
+В данном проекте используется [oblitum/interception](https://github.com/oblitum/Interception) и [node-interception](https://github.com/Rami-Sabbagh/node-interception). Interception необходимо установить отдельно. Приложение анализирует экран и нажимает клавиши.
 
 
 ## Stack
@@ -14,3 +14,6 @@
  - NodeJS
  - RobotJS
  - Telegram bot api
+
+
+#### Build Сборка c установщиками в Bots_1.1.rar 
