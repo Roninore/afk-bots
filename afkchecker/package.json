@@ -1,0 +1,26 @@
+{
+  "name": "afkchecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "scripts": ["index.js","captureToFile.js","sendOnTelegram.js"],
+    "assets": ["node_modules/node-global-key-listener/**/*.exe", "temp/*.png"],
+    "targets": [ "node16-win-x64" ],
+    "outputPath": "dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "node-global-key-listener": "^0.0.13",
+    "node-telegram-bot-api": "^0.56.0",
+    "robotjs": "^0.6.0",
+    "tinycolor2": "^1.4.2"
+  }
+}
